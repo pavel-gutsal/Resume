@@ -1,9 +1,5 @@
-import { HeroPage } from "./HeroPage";
+import { Header } from './Header'
 
 export function App() {
-  return (
-    <>
-      <HeroPage />
-    </>
-  )
-};
+  return <Header />
+}

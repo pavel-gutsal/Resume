@@ -1,0 +1,1 @@
+deployed with github pages [DEMO LINK](https://pavel-gutsal.github.io/Resume/)
