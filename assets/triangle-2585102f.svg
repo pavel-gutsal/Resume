@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 94" width="100" height="94">
+	<title>blob (9)-svg</title>
+	<defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(2, 124, 255);" />
+      <stop offset="100%" style="stop-color: rgb(139, 255, 245);" />
+    </linearGradient>
+  </defs>
+	<path fill="url(#gradient)" id="Layer" class="s0" d="m9.3 24.3c13.5-23 68-25 81.8-2.9 13.7 22.1-13.3 68.2-40.4 69.2-27.3 1-54.9-43.2-41.4-66.3z"/>
+</svg>
