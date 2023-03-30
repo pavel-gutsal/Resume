@@ -91,6 +91,7 @@ Error generating stack: `+i.message+`
     rgba(216, 243, 249, 0.7) 100%
   );
   z-index: 3;
+  -webkit-backdrop-filter: blur(70px);
   backdrop-filter: blur(70px);
 `,jm=B.div`
   position: absolute;
