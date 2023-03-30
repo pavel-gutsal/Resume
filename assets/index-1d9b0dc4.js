@@ -62,7 +62,7 @@ Error generating stack: `+i.message+`
   position: relative;
   overflow: hidden;
 `,wm="/Resume/assets/ava-074a0de0.png",Sm="/Resume/assets/ecommerce-a1505ea5.png",km="/Resume/assets/messanger-5e7ac2f6.png",xm="/Resume/assets/todoapp-aff9c191.png",Cm="/Resume/assets/siluete-130fc90f.png",Em="/Resume/assets/triangle-2585102f.svg",_m="/Resume/assets/github-7a0dd11e.svg",Pm="/Resume/assets/gmail-de129dff.svg",Tm="/Resume/assets/linkedin-27df2f0f.svg",Nm="/Resume/assets/telegram-27829c10.svg",zm="/Resume/assets/telephone-656cf919.svg",Rm="/Resume/assets/location-ff0c3f4c.svg",Om="/Resume/assets/blob1-97ea4f1f.svg",Am="/Resume/assets/blob2-92ffd139.svg",Lm="/Resume/assets/blob3-ef27fb0e.svg",Qe={AVATAR:wm,ECOMMERCE:Sm,MESSANGER:km,TODOAPP:xm,SILUETE:Cm,TRIANGLE:Em,CONTACTS:{GITHUB:_m,GMAIL:Pm,LINKEDIN:Tm,TELEGRAM:Nm,TELEPHONE:zm,LOCATION:Rm},BLOBS:{BLOB_A:Om,BLOB_B:Am,BLOB_C:Lm}},$m={pageHeight:"2200px",pagePadding:"80px;"},Im=B.div`
-  width: 100vw;
+  width: 1534px;
   height: ${$m.pageHeight};
   /* background: linear-gradient(
     43deg,
@@ -79,7 +79,7 @@ Error generating stack: `+i.message+`
   height: 100%;
   position: relative;
 `,Dm=B.div`
-  width: 100vw;
+  width: 1534px;
   height: 2200px;
   position: fixed;
   top: 0;
