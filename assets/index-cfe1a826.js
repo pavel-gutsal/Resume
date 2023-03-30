@@ -61,9 +61,9 @@ Error generating stack: `+i.message+`
   gap: 30px;
   position: relative;
   overflow: hidden;
-`,wm="/Resume/assets/ava-074a0de0.png",Sm="/Resume/assets/ecommerce-a1505ea5.png",km="/Resume/assets/messanger-5e7ac2f6.png",xm="/Resume/assets/todoapp-aff9c191.png",Cm="/Resume/assets/siluete-130fc90f.png",Em="/Resume/assets/triangle-2585102f.svg",_m="/Resume/assets/github-7a0dd11e.svg",Pm="/Resume/assets/gmail-de129dff.svg",Tm="/Resume/assets/linkedin-27df2f0f.svg",Nm="/Resume/assets/telegram-27829c10.svg",zm="/Resume/assets/telephone-656cf919.svg",Rm="/Resume/assets/location-ff0c3f4c.svg",Om="/Resume/assets/blob1-97ea4f1f.svg",Am="/Resume/assets/blob2-92ffd139.svg",Lm="/Resume/assets/blob3-ef27fb0e.svg",Qe={AVATAR:wm,ECOMMERCE:Sm,MESSANGER:km,TODOAPP:xm,SILUETE:Cm,TRIANGLE:Em,CONTACTS:{GITHUB:_m,GMAIL:Pm,LINKEDIN:Tm,TELEGRAM:Nm,TELEPHONE:zm,LOCATION:Rm},BLOBS:{BLOB_A:Om,BLOB_B:Am,BLOB_C:Lm}},$m={pageHeight:"2200px",pagePadding:"80px;"},Im=B.div`
-  width: 1534px;
-  height: ${$m.pageHeight};
+`,wm="/Resume/assets/ava-074a0de0.png",Sm="/Resume/assets/ecommerce-a1505ea5.png",km="/Resume/assets/messanger-5e7ac2f6.png",xm="/Resume/assets/todoapp-aff9c191.png",Cm="/Resume/assets/siluete-130fc90f.png",Em="/Resume/assets/triangle-2585102f.svg",_m="/Resume/assets/github-7a0dd11e.svg",Pm="/Resume/assets/gmail-de129dff.svg",Tm="/Resume/assets/linkedin-27df2f0f.svg",Nm="/Resume/assets/telegram-27829c10.svg",zm="/Resume/assets/telephone-656cf919.svg",Rm="/Resume/assets/location-ff0c3f4c.svg",Om="/Resume/assets/blob1-97ea4f1f.svg",Am="/Resume/assets/blob2-92ffd139.svg",Lm="/Resume/assets/blob3-ef27fb0e.svg",Qe={AVATAR:wm,ECOMMERCE:Sm,MESSANGER:km,TODOAPP:xm,SILUETE:Cm,TRIANGLE:Em,CONTACTS:{GITHUB:_m,GMAIL:Pm,LINKEDIN:Tm,TELEGRAM:Nm,TELEPHONE:zm,LOCATION:Rm},BLOBS:{BLOB_A:Om,BLOB_B:Am,BLOB_C:Lm}},$m=B.div`
+  width: 1536px;
+  height: 2200px;
   /* background: linear-gradient(
     43deg,
     rgba(253, 224, 255, 1) 0%,
@@ -74,12 +74,12 @@ Error generating stack: `+i.message+`
   top: 0;
   left: 0;
   z-index: -1;
-`,Mm=B.div`
+`,Im=B.div`
   width: 100%;
   height: 100%;
   position: relative;
-`,Dm=B.div`
-  width: 1534px;
+`,Mm=B.div`
+  width: 1536px;
   height: 2200px;
   position: fixed;
   top: 0;
@@ -93,7 +93,7 @@ Error generating stack: `+i.message+`
   z-index: 3;
   -webkit-backdrop-filter: blur(70px);
   backdrop-filter: blur(70px);
-`,jm=B.div`
+`,Dm=B.div`
   position: absolute;
   top: ${({top:e})=>e};
   left: ${({left:e})=>e};
@@ -101,7 +101,7 @@ Error generating stack: `+i.message+`
   height: 150%;
   isolation: isolate;
   z-index: 0;
-`,Fm=B.div`
+`,jm=B.div`
   position: relative;
   width: 100%;
   height: 100%;
@@ -114,13 +114,13 @@ Error generating stack: `+i.message+`
   &:nth-child(2) {
     filter: blur(50px);
   }
-`;function qi({image:e,top:t,left:n}){return L(jm,{top:t,left:n,children:te(Fm,{children:[L(xa,{children:L("img",{src:e,alt:"blob"})}),L(xa,{children:L("img",{src:e,alt:"blob"})})]})})}function Bm(){return te(Im,{children:[L(Dm,{}),te(Mm,{children:[L(qi,{image:Qe.BLOBS.BLOB_A,top:"-30%",left:"-10%"}),L(qi,{image:Qe.BLOBS.BLOB_B,top:"0%",left:"-50%"}),L(qi,{image:Qe.BLOBS.BLOB_C,top:"30%",left:"-10%"})]})]})}const Um=B.div`
+`;function qi({image:e,top:t,left:n}){return L(Dm,{top:t,left:n,children:te(jm,{children:[L(xa,{children:L("img",{src:e,alt:"blob"})}),L(xa,{children:L("img",{src:e,alt:"blob"})})]})})}function Fm(){return te($m,{children:[L(Mm,{}),te(Im,{children:[L(qi,{image:Qe.BLOBS.BLOB_A,top:"-30%",left:"-10%"}),L(qi,{image:Qe.BLOBS.BLOB_B,top:"0%",left:"-50%"}),L(qi,{image:Qe.BLOBS.BLOB_C,top:"30%",left:"-10%"})]})]})}const Bm=B.div`
   border-left: 5px solid #ff7b1d;
   background: rgba(255, 255, 255, 0.5);
   padding: 16px;
-`,Hm=B.div`
+`,Um=B.div`
   padding-bottom: 10px;
-`,Vm=B.h3`
+`,Hm=B.h3`
   font-size: 26px;
   font-weight: 500;
 
@@ -135,15 +135,15 @@ Error generating stack: `+i.message+`
     font-weight: 500;
   }
 
-`,Wm=B.ul`
+`,Vm=B.ul`
   padding-left: 30px;
 `,Ea=B.p`
   font-size: 20px;
-`;function Qm(){return te(Um,{children:[L(Hm,{children:te(Vm,{children:["Front End Developer ",L("span",{children:"| November 2022 - February 2023"})]})}),te(Ca,{children:[L("span",{children:"DevelopsToday"}),"— assigned to React / NestJS project as Front-End / FullStack developer, was responsible for implementing functionality over UI/UX of application and bug fixing."]}),L(Ca,{children:"Tech Stack:"}),te(Wm,{children:[L("li",{children:L(Ea,{children:"Client side: React, Typescript, TanStack Query, and MOBX for state management, Ant Design as ui library."})}),L("li",{children:L(Ea,{children:"Backend: NestJS framework with MongoDB and Mongoose."})})]})]})}const Gm=B.div`
+`;function Wm(){return te(Bm,{children:[L(Um,{children:te(Hm,{children:["Front End Developer ",L("span",{children:"| November 2022 - February 2023"})]})}),te(Ca,{children:[L("span",{children:"DevelopsToday"}),"— assigned to React / NestJS project as Front-End / FullStack developer, was responsible for implementing functionality over UI/UX of application and bug fixing."]}),L(Ca,{children:"Tech Stack:"}),te(Vm,{children:[L("li",{children:L(Ea,{children:"Client side: React, Typescript, TanStack Query, and MOBX for state management, Ant Design as ui library."})}),L("li",{children:L(Ea,{children:"Backend: NestJS framework with MongoDB and Mongoose."})})]})]})}const Qm=B.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-`,Ym=B.img`
+`,Gm=B.img`
   height: 400px;
   position: relative;
   top: -10px;
@@ -157,20 +157,20 @@ Error generating stack: `+i.message+`
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-`;const Km=B.div`
+`;const Ym=B.div`
   display: flex;
   flex-direction: column;
   gap: 6px;
-`,Xm=B.div`
+`,Km=B.div`
   display: flex;
   gap: 80px;
-`,Zm=B.h1`
+`,Xm=B.h1`
   font-size: 46px;
   font-weight: 600;
-`,Jm=B.h1`
+`,Zm=B.h1`
   font-size: 36px;
   font-weight: 600;
-`,qm=B.div`
+`,Jm=B.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -178,7 +178,7 @@ Error generating stack: `+i.message+`
 `,rr=B.h3`
   font-size: 24px;
   font-weight: 500;
-`,bm=B.h2`
+`,qm=B.h2`
   font-size: 28px;
   font-weight: 500;
   padding-top: 20px;
@@ -186,7 +186,7 @@ Error generating stack: `+i.message+`
   align-items: center;
 `,hn=B.img`
   width: 32px;
-`;function e0(){return te(Gm,{children:[te(Xm,{children:[L(Ym,{src:Qe.AVATAR,alt:"ava"}),te(Km,{children:[L(Zm,{children:"Paul Gutsal"}),L(Jm,{children:"FRONTEND DEVELOPER"})]})]}),te(qm,{children:[te(nr,{children:[L(rr,{children:"+38 066 466 35 83"}),L(hn,{src:Qe.CONTACTS.TELEPHONE})]}),te(nr,{href:"https://t.me/PaulGutsal",target:"blank",children:[L(rr,{children:"Telegram"}),L(hn,{src:Qe.CONTACTS.TELEGRAM})]}),te(nr,{href:"mailto:pavel.gutsal@gmail.com",target:"blank",children:[L(rr,{children:"pavel.gutsal@gmail.com"}),L(hn,{src:Qe.CONTACTS.GMAIL})]}),te(nr,{href:"https://www.linkedin.com/in/paul-gutsal/",target:"blank",children:[L(rr,{children:"LinkedIn"}),L(hn,{src:Qe.CONTACTS.LINKEDIN})]}),te(nr,{href:"https://github.com/pavel-gutsal",target:"blank",children:[L(rr,{children:"GitHub"}),L(hn,{src:Qe.CONTACTS.GITHUB})]}),te(bm,{children:["Odessa, Ukraine, remote",L(hn,{src:Qe.CONTACTS.LOCATION})]})]})]})}const t0=B.div`
+`;function bm(){return te(Qm,{children:[te(Km,{children:[L(Gm,{src:Qe.AVATAR,alt:"ava"}),te(Ym,{children:[L(Xm,{children:"Paul Gutsal"}),L(Zm,{children:"FRONTEND DEVELOPER"})]})]}),te(Jm,{children:[te(nr,{children:[L(rr,{children:"+38 066 466 35 83"}),L(hn,{src:Qe.CONTACTS.TELEPHONE})]}),te(nr,{href:"https://t.me/PaulGutsal",target:"blank",children:[L(rr,{children:"Telegram"}),L(hn,{src:Qe.CONTACTS.TELEGRAM})]}),te(nr,{href:"mailto:pavel.gutsal@gmail.com",target:"blank",children:[L(rr,{children:"pavel.gutsal@gmail.com"}),L(hn,{src:Qe.CONTACTS.GMAIL})]}),te(nr,{href:"https://www.linkedin.com/in/paul-gutsal/",target:"blank",children:[L(rr,{children:"LinkedIn"}),L(hn,{src:Qe.CONTACTS.LINKEDIN})]}),te(nr,{href:"https://github.com/pavel-gutsal",target:"blank",children:[L(rr,{children:"GitHub"}),L(hn,{src:Qe.CONTACTS.GITHUB})]}),te(qm,{children:["Odessa, Ukraine, remote",L(hn,{src:Qe.CONTACTS.LOCATION})]})]})]})}const e0=B.div`
   width: 100%;
   padding: 16px;
   height: 500px;
@@ -199,21 +199,21 @@ Error generating stack: `+i.message+`
   justify-content: flex-end;
   position: relative;
   overflow: hidden;
-`,n0=B.img`
+`,t0=B.img`
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-`,r0=B.div`
+`,n0=B.div`
   font-size: 24px;
   font-weight: 500;
   padding-bottom: 12px;
   color: white;
-`,l0=B.div`
+`,r0=B.div`
   font-size: 20px;
   padding-bottom: 12px;
   color: white;
-`,i0=B.div`
+`,l0=B.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -228,23 +228,23 @@ Error generating stack: `+i.message+`
   background: #ff0044;
   box-shadow: 0 0 10px 0 #ff0044;
   border-radius: 25px;
-`,o0=B(eu)`
+`,i0=B(eu)`
   background: orange;
   box-shadow: 0 0 10px 0 orange;
   font-size: 24px;
-`,u0=B.div`
+`,o0=B.div`
   display: flex;
   gap: 16px;
-`;function s0({card:e}){return te(t0,{children:[L(n0,{src:e.image}),L(r0,{children:e.title}),L(l0,{children:e.description}),te(i0,{children:[L(o0,{href:e.demo,target:"blank",children:"Demo"}),te(u0,{children:[L(eu,{href:e.client,target:"blank",children:"Front-End GitHub"}),(e==null?void 0:e.backend)&&L(eu,{href:e.backend,target:"blank",children:"BackendEnd GitHub"})]})]})]})}const a0=B.div`
+`;function u0({card:e}){return te(e0,{children:[L(t0,{src:e.image}),L(n0,{children:e.title}),L(r0,{children:e.description}),te(l0,{children:[L(i0,{href:e.demo,target:"blank",children:"Demo"}),te(o0,{children:[L(eu,{href:e.client,target:"blank",children:"Front-End GitHub"}),(e==null?void 0:e.backend)&&L(eu,{href:e.backend,target:"blank",children:"BackendEnd GitHub"})]})]})]})}const s0=B.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-`,c0=[{title:"E-Commerce store",description:"Tech Stack: React, Redux Toolkit, TanStack Query, styled-components, MUI, Stripe NestJS,MongoDB, Mongoose, JWT OpenAPI(Swagger)",image:Qe.ECOMMERCE,demo:"https://pavel-gutsal.github.io/web-Shop-frontend",client:"https://github.com/pavel-gutsal/web-Shop-frontend",backend:"https://github.com/pavel-gutsal/web-shop-backend"},{title:"Chat App with private rooms",description:"the React project with FireBase managed database, real-time updates, services connected - FireBase Authentification, firestore, storage.",image:Qe.MESSANGER,demo:"https://messanger-app-1566f.web.app/",client:"https://github.com/pavel-gutsal/messanger"},{title:"MERN Stack todo app ",description:"the project in CGS-team written with JWT user validation on on Express.js  and on client-side Styled Components package, and Formic for forms management. ",image:Qe.TODOAPP,demo:"https://pavel-gutsal.github.io/mern-todo-app-CGS-TEAM-test-task",client:"https://pavel-gutsal.github.io/mern-todo-app-CGS-TEAM-test-task",backend:"https://github.com/pavel-gutsal/mern-todo-app-backend-final"}];function f0(){return L(a0,{children:c0.map(e=>L(s0,{card:e},e.title))})}const d0=B.div`
+`,a0=[{title:"E-Commerce store",description:"Tech Stack: React, Redux Toolkit, TanStack Query, styled-components, MUI, Stripe NestJS,MongoDB, Mongoose, JWT OpenAPI(Swagger)",image:Qe.ECOMMERCE,demo:"https://pavel-gutsal.github.io/web-Shop-frontend",client:"https://github.com/pavel-gutsal/web-Shop-frontend",backend:"https://github.com/pavel-gutsal/web-shop-backend"},{title:"Chat App with private rooms",description:"the React project with FireBase managed database, real-time updates, services connected - FireBase Authentification, firestore, storage.",image:Qe.MESSANGER,demo:"https://messanger-app-1566f.web.app/",client:"https://github.com/pavel-gutsal/messanger"},{title:"MERN Stack todo app ",description:"the project in CGS-team written with JWT user validation on on Express.js  and on client-side Styled Components package, and Formic for forms management. ",image:Qe.TODOAPP,demo:"https://pavel-gutsal.github.io/mern-todo-app-CGS-TEAM-test-task",client:"https://pavel-gutsal.github.io/mern-todo-app-CGS-TEAM-test-task",backend:"https://github.com/pavel-gutsal/mern-todo-app-backend-final"}];function c0(){return L(s0,{children:a0.map(e=>L(u0,{card:e},e.title))})}const f0=B.div`
   padding-top: 20px;
   padding-bottom: 20px;
-`,p0=B.h3`
+`,d0=B.h3`
   
-`,h0=B.div`
+`,p0=B.div`
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -258,19 +258,19 @@ Error generating stack: `+i.message+`
   padding: 16px 30px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   background: rgba(255, 255, 255, 0.5);
-`;function m0(){return te(d0,{children:[L(p0,{children:"SUMMARY"}),te(h0,{children:[L(Ve,{children:"TypeScript"}),L(Ve,{children:"JavaScript"}),L(Ve,{children:"React"}),L(Ve,{children:"Next.js"}),L(Ve,{children:"Redux Toolkit"}),L(Ve,{children:"TanStack Query"}),L(Ve,{children:"NestJS"}),L(Ve,{children:"Express.js"}),L(Ve,{children:"MongoDB"}),L(Ve,{children:"Mongoose"}),L(Ve,{children:"CSS"}),L(Ve,{children:"styled-components"}),L(Ve,{children:"Tailwind"})]})]})}const v0=B.div`
+`;function h0(){return te(f0,{children:[L(d0,{children:"SUMMARY"}),te(p0,{children:[L(Ve,{children:"TypeScript"}),L(Ve,{children:"JavaScript"}),L(Ve,{children:"React"}),L(Ve,{children:"Next.js"}),L(Ve,{children:"Redux Toolkit"}),L(Ve,{children:"TanStack Query"}),L(Ve,{children:"NestJS"}),L(Ve,{children:"Express.js"}),L(Ve,{children:"MongoDB"}),L(Ve,{children:"Mongoose"}),L(Ve,{children:"CSS"}),L(Ve,{children:"styled-components"}),L(Ve,{children:"Tailwind"})]})]})}const m0=B.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 16px;
   border-left: 5px solid #ff7b1d;
   background: rgba(255, 255, 255, 0.5);
-`,g0=B.h3`
+`,v0=B.h3`
   font-size: 28px;
   font-weight: 500;
   color: #2d2d2d;
-`,y0=B.p`
+`,g0=B.p`
   font-size: 28px;
   font-weight: 400;
   color: #2d2d2d;
-`;function w0(){return te(v0,{children:[L(g0,{children:"SUMMARY"}),L(y0,{children:"Front-End Developer with 3 months of commercial experience with React and Nest.js framework, and more than 1.5 years of experience with JavaScript. Ex-Marine Engineer, with 3 years of experience in managing complex projects under tight schedules and deadlines, being in charge of human and material resources and working in an English-speaking community."})]})}function S0(){return te(ym,{children:[L(Bm,{}),L(e0,{}),L(w0,{}),L(m0,{}),L(Qm,{}),L(f0,{})]})}bi.createRoot(document.getElementById("root")).render(L(jr.StrictMode,{children:L(S0,{})}));
+`;function y0(){return te(m0,{children:[L(v0,{children:"SUMMARY"}),L(g0,{children:"Front-End Developer with 3 months of commercial experience with React and Nest.js framework, and more than 1.5 years of experience with JavaScript. Ex-Marine Engineer, with 3 years of experience in managing complex projects under tight schedules and deadlines, being in charge of human and material resources and working in an English-speaking community."})]})}function w0(){return te(ym,{children:[L(Fm,{}),L(bm,{}),L(y0,{}),L(h0,{}),L(Wm,{}),L(c0,{})]})}bi.createRoot(document.getElementById("root")).render(L(jr.StrictMode,{children:L(w0,{})}));
