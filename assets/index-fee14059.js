@@ -86,6 +86,7 @@ Error generating stack: `+o.message+`
   border-left: 8px solid ${Et.orangeBright};
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
+  margin-bottom: 20px;
 `,Vm=B.h3`
   font-size: 28px;
   font-weight: 500;
@@ -116,6 +117,7 @@ Error generating stack: `+o.message+`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-top: -10px;
 `,Xm=B.img`
   height: 350px;
   position: relative;
