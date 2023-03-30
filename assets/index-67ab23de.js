@@ -91,8 +91,8 @@ Error generating stack: `+i.message+`
     rgba(216, 243, 249, 0.7) 100%
   );
   z-index: 3;
-  -webkit-backdrop-filter: blur(70px);
-  backdrop-filter: blur(70px);
+  /* -webkit-backdrop-filter: blur(70px);
+  backdrop-filter: blur(70px); */
 `,Dm=B.div`
   position: absolute;
   top: ${({top:e})=>e};
@@ -110,10 +110,11 @@ Error generating stack: `+i.message+`
   width: 100%;
   height: 100%;
   transform: scale(0.5);
-
+  filter: blur(200px);
+/* 
   &:nth-child(2) {
     filter: blur(50px);
-  }
+  } */
 `;function qi({image:e,top:t,left:n}){return L(Dm,{top:t,left:n,children:te(jm,{children:[L(xa,{children:L("img",{src:e,alt:"blob"})}),L(xa,{children:L("img",{src:e,alt:"blob"})})]})})}function Fm(){return te($m,{children:[L(Mm,{}),te(Im,{children:[L(qi,{image:Qe.BLOBS.BLOB_A,top:"-30%",left:"-10%"}),L(qi,{image:Qe.BLOBS.BLOB_B,top:"0%",left:"-50%"}),L(qi,{image:Qe.BLOBS.BLOB_C,top:"30%",left:"-10%"})]})]})}const Bm=B.div`
   border-left: 5px solid #ff7b1d;
   background: rgba(255, 255, 255, 0.5);
