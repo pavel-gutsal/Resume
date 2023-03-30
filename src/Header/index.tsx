@@ -1,6 +1,5 @@
 import { IMAGE } from '../image'
 import {
-  SHeroPage,
   SImage,
   SGroup,
   SName,
@@ -10,11 +9,11 @@ import {
   SText,
   SAdress,
   SGroupHorizontal,
+  SLocation,
 } from './Header.style'
 
 export function Header() {
   return (
-    <SHeroPage>
       <SHeader>
         <SGroupHorizontal>
           <SImage src={IMAGE.AVATAR} alt="ava" />
@@ -37,8 +36,8 @@ export function Header() {
           <SAdress href="https://github.com/pavel-gutsal" target="blank">
             GitHub
           </SAdress>
+          <SLocation>Odessa, Ukraine, remote</SLocation>
         </SContacts>
       </SHeader>
-    </SHeroPage>
   )
 }

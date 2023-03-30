@@ -1,11 +1,5 @@
 import styled from 'styled-components'
 
-export const SHeroPage = styled.div`
-  padding: 60px;
-  background: green;
-  height: 2200px;
-`
-
 export const SHeader = styled.div`
   display: flex;
   width: 100%;
@@ -46,7 +40,7 @@ export const SContacts = styled.div`
   align-items: flex-end;
 `
 
-export const SText = styled.div`
+export const SText = styled.h3`
   font-size: 20px;
   font-weight: 500;
 `
@@ -55,3 +49,8 @@ export const SAdress = styled.a`
   font-size: 20px;
   font-weight: 500;
 `
+export const SLocation = styled.h2`
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 20px;
+`;
