@@ -128,6 +128,7 @@ Error generating stack: `+o.message+`
   display: flex;
   gap: 10px;
   align-items: center;
+  text-underline-offset: 4px;
 `;B.img`
   height: 500px;
   position: absolute;
@@ -257,6 +258,7 @@ Error generating stack: `+o.message+`
   box-shadow: 0 0 8px 0 rgb(202, 202, 202);
   border: 1px solid #d1d1d1;
   border-radius: 25px;
+  text-underline-offset: 4px;
 `,f0=B(tu)`
   background: ${({color:e})=>e};
   box-shadow: ${({color:e})=>`0 0 8px 0 ${e}`};
