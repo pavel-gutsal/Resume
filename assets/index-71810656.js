@@ -87,6 +87,7 @@ Error generating stack: `+o.message+`
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
   margin-bottom: 20px;
+  box-shadow: 0 0 8px 0 #ccc;
 `,Tm=B.h3`
   font-size: 28px;
   font-weight: 500;
@@ -211,7 +212,7 @@ Error generating stack: `+o.message+`
   padding: 16px;
   height: 580px;
   border-radius: 16px;
-  border: 1px solid #b7b7b7;
+  border: 1px solid #d2d2d2;
   box-shadow: 0 0 8px 0 rgba(81, 81, 81, 0.25);
   background: rgba(255, 255, 255, 0.7);
   display: flex;
@@ -304,6 +305,7 @@ Error generating stack: `+o.message+`
   border-left: 8px solid ${Et.orangeBright};
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
+  box-shadow: 0 0 8px 0 #ccc;
 `,w0=B.h3`
   font-size: 28px;
   font-weight: 500;
