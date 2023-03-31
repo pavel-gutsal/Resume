@@ -101,9 +101,9 @@ Error generating stack: `+i.message+`
   height: ${Jo.pageHeight};
   background: linear-gradient(
     43deg,
-    rgba(251, 200, 255, 0.5) 0%,
-    rgba(194, 194, 253, 0.5) 49%,
-    rgba(213, 245, 252, 0.5) 100%
+    rgba(254, 240, 255, 0.8) 0%,
+    rgba(236, 236, 255, 0.8) 49%,
+    rgba(228, 250, 255, 0.8) 100%
   );
   position: absolute;
   top: 0;
