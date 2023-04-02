@@ -1,40 +1,42 @@
-import { CardContent } from '../../types'
+import { CardContent } from '../../types';
 import {
   ButtonWrapper,
-  SButtonMain,
+  SButtonPosition,
   SButton,
   SCard,
   SParagraph,
   STitle,
-  SSourceButtons,
   SImage,
-} from './Card.style'
+  SButtonDemo,
+} from './Card.style';
 
 interface Props {
-  card: CardContent
+  card: CardContent;
 }
 
 export function Card({ card }: Props) {
   return (
     <SCard>
-      <SImage src={card.image} />
+      <a href={card.demo} target="blank">
+        <SImage src={card.image} />
+      </a>
+      <SButtonPosition color={card.color}>
+        <SButtonDemo href={card.demo} target="blank" color={card.color}>
+          Demo
+        </SButtonDemo>
+      </SButtonPosition>
       <STitle>{card.title}</STitle>
       <SParagraph>{card.description}</SParagraph>
       <ButtonWrapper>
-        <SButtonMain href={card.demo} target="blank">
-          Demo
-        </SButtonMain>
-        <SSourceButtons>
-          <SButton href={card.client} target="blank">
-            Front-End GitHub
+        <SButton href={card.client} target="blank">
+          Front-End GitHub
+        </SButton>
+        {card?.backend && (
+          <SButton href={card.backend} target="blank">
+            BackendEnd GitHub
           </SButton>
-          {card?.backend && (
-            <SButton href={card.backend} target="blank">
-              BackendEnd GitHub
-            </SButton>
-          )}
-        </SSourceButtons>
+        )}
       </ButtonWrapper>
     </SCard>
-  )
+  );
 }

@@ -1,9 +1,11 @@
-import { SContainer, SList, SSkills, STitle } from './Skills.style'
+import { SContainer, SList, SSkills, STitle, STitleBorder } from './Skills.style';
 
 export function Skills() {
   return (
     <SContainer>
-      <STitle>SUMMARY</STitle>
+      <STitleBorder>
+        <STitle>SKILLS</STitle>
+      </STitleBorder>
       <SSkills>
         <SList>TypeScript</SList>
         <SList>JavaScript</SList>
@@ -15,10 +17,14 @@ export function Skills() {
         <SList>Express.js</SList>
         <SList>MongoDB</SList>
         <SList>Mongoose</SList>
+        <SList>PostgreSQL</SList>
+        <SList>TypeORM</SList>
+        <SList>Docker</SList>
         <SList>CSS</SList>
         <SList>styled-components</SList>
         <SList>Tailwind</SList>
+        <SList>Git</SList>
       </SSkills>
     </SContainer>
-  )
+  );
 }

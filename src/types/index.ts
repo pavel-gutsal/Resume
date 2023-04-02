@@ -5,4 +5,5 @@ export interface CardContent {
   demo: string;
   client: string;
   backend?: string;
+  color: string;
 }

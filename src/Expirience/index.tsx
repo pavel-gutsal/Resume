@@ -1,8 +1,17 @@
-import { SBullet, SContainer, SPosition, SText, STitleContainer, Sul } from './Expirience.style'
+import {
+  SBullet,
+  SContainer,
+  SPosition,
+  SText,
+  STitle,
+  STitleContainer,
+  Sul,
+} from './Expirience.style';
 
 export function Expirience() {
   return (
     <SContainer>
+      <STitle>EXPIRIENCE</STitle>
       <STitleContainer>
         <SPosition>
           Front End Developer <span>| November 2022 - February 2023</span>
@@ -17,8 +26,7 @@ export function Expirience() {
       <Sul>
         <li>
           <SBullet>
-            Client side: React, Typescript, TanStack Query, and MOBX for state management, Ant
-            Design as ui library.
+            Client side: React, Typescript, TanStack Query, MOBX, Ant Design, Handsontable.
           </SBullet>
         </li>
         <li>
@@ -26,5 +34,5 @@ export function Expirience() {
         </li>
       </Sul>
     </SContainer>
-  )
+  );
 }
